@@ -1,0 +1,28 @@
+
+<html>
+<head><title>AAUA DECIDES</title></head>
+<body><h1>AAUA DECIDES</h1></body>
+
+welcome to the voting platform
+</br>
+
+ <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+
+                  <tbody>
+
+                        {% for option in options %}
+                         <tr>
+
+                      <td>{{ option.name }}</td>
+
+
+                      </tr>
+
+                    {% endfor %}
+                  </tbody>
+                </table>
+ </div>
+
+</html>
